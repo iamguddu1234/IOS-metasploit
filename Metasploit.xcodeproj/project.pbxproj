@@ -11,6 +11,46 @@
 		B23932E22C0C801A0072CC1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932E12C0C801A0072CC1D /* ContentView.swift */; };
 		B23932E42C0C801C0072CC1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23932E32C0C801C0072CC1D /* Assets.xcassets */; };
 		B23932E72C0C801C0072CC1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B23932E62C0C801C0072CC1D /* Preview Assets.xcassets */; };
+		B23932EF2C0C80600072CC1D /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932EE2C0C80600072CC1D /* LottieView.swift */; };
+		B23932F12C0C806E0072CC1D /* MainBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932F02C0C806E0072CC1D /* MainBasic.swift */; };
+		B23932F32C0C807D0072CC1D /* MainIntermediate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932F22C0C807D0072CC1D /* MainIntermediate.swift */; };
+		B23932F52C0C80860072CC1D /* MainAdvance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932F42C0C80860072CC1D /* MainAdvance.swift */; };
+		B23932FC2C0C81190072CC1D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B23932FB2C0C81190072CC1D /* Lottie */; };
+		B23932FE2C0C814F0072CC1D /* B1_intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932FD2C0C814F0072CC1D /* B1_intro.swift */; };
+		B23933002C0C81610072CC1D /* B2_what_is_meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23932FF2C0C81610072CC1D /* B2_what_is_meta.swift */; };
+		B23933022C0C816E0072CC1D /* B3_download.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933012C0C816E0072CC1D /* B3_download.swift */; };
+		B23933042C0C81780072CC1D /* B4_install.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933032C0C81780072CC1D /* B4_install.swift */; };
+		B23933062C0C818A0072CC1D /* B5_meta_module.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933052C0C818A0072CC1D /* B5_meta_module.swift */; };
+		B23933082C0C81980072CC1D /* B6_basic_cmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933072C0C81980072CC1D /* B6_basic_cmd.swift */; };
+		B239330A2C0C81A70072CC1D /* B7_meterpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933092C0C81A70072CC1D /* B7_meterpreter.swift */; };
+		B239330C2C0C81BA0072CC1D /* B8_meterpreter_cmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239330B2C0C81BA0072CC1D /* B8_meterpreter_cmd.swift */; };
+		B239330E2C0C81C70072CC1D /* B9_armitage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239330D2C0C81C70072CC1D /* B9_armitage.swift */; };
+		B23933102C0C81DC0072CC1D /* B10_console_cmd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239330F2C0C81DC0072CC1D /* B10_console_cmd.swift */; };
+		B23933122C0C82040072CC1D /* I1_understand_framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933112C0C82040072CC1D /* I1_understand_framework.swift */; };
+		B23933142C0C82170072CC1D /* I2_meta_install_android.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933132C0C82170072CC1D /* I2_meta_install_android.swift */; };
+		B23933162C0C82290072CC1D /* I3_exploitation_basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933152C0C82290072CC1D /* I3_exploitation_basic.swift */; };
+		B23933182C0C82390072CC1D /* I4_exploiting_vuln.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933172C0C82390072CC1D /* I4_exploiting_vuln.swift */; };
+		B239331A2C0C824A0072CC1D /* I5_scanning_n_recon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933192C0C824A0072CC1D /* I5_scanning_n_recon.swift */; };
+		B239331C2C0C825C0072CC1D /* I6_client_side_exploitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239331B2C0C825C0072CC1D /* I6_client_side_exploitation.swift */; };
+		B239331E2C0C82710072CC1D /* I7_database_exploitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239331D2C0C82710072CC1D /* I7_database_exploitation.swift */; };
+		B23933202C0C82840072CC1D /* I8_metasploit_automation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239331F2C0C82840072CC1D /* I8_metasploit_automation.swift */; };
+		B23933222C0C829D0072CC1D /* I9_blueTeamExcersice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933212C0C829D0072CC1D /* I9_blueTeamExcersice.swift */; };
+		B23933242C0C82B90072CC1D /* I10_comunity_n_resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933232C0C82B90072CC1D /* I10_comunity_n_resources.swift */; };
+		B23933262C0C833B0072CC1D /* A1_evasion_technique.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933252C0C833B0072CC1D /* A1_evasion_technique.swift */; };
+		B23933282C0C83550072CC1D /* A2_exploit_development.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933272C0C83550072CC1D /* A2_exploit_development.swift */; };
+		B239332A2C0C836F0072CC1D /* A3_payload_customization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933292C0C836F0072CC1D /* A3_payload_customization.swift */; };
+		B239332C2C0C83880072CC1D /* A4_post_exploitation_module.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239332B2C0C83880072CC1D /* A4_post_exploitation_module.swift */; };
+		B239332E2C0C839D0072CC1D /* A5_fiirewall_bypass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239332D2C0C839D0072CC1D /* A5_fiirewall_bypass.swift */; };
+		B23933302C0C83B30072CC1D /* A6_webapplication_scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239332F2C0C83B30072CC1D /* A6_webapplication_scan.swift */; };
+		B23933322C0C83CC0072CC1D /* A7_shell_session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933312C0C83CC0072CC1D /* A7_shell_session.swift */; };
+		B23933342C0C83E70072CC1D /* A8_postexploitaion_techniq.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933332C0C83E70072CC1D /* A8_postexploitaion_techniq.swift */; };
+		B23933362C0C84040072CC1D /* A9_social_eng_attacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933352C0C84040072CC1D /* A9_social_eng_attacks.swift */; };
+		B23933382C0C841A0072CC1D /* A10_webapp_penetration_testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933372C0C841A0072CC1D /* A10_webapp_penetration_testing.swift */; };
+		B239333A2C0C842C0072CC1D /* A11_reverse_eng.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933392C0C842C0072CC1D /* A11_reverse_eng.swift */; };
+		B239333C2C0C84E10072CC1D /* BannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239333B2C0C84E10072CC1D /* BannerAds.swift */; };
+		B2DD15C82C158F8100AF3D3B /* Text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15C72C158F8100AF3D3B /* Text1.swift */; };
+		B2DD15CA2C158F8800AF3D3B /* Text2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15C92C158F8800AF3D3B /* Text2.swift */; };
+		B2DD15CC2C158F8E00AF3D3B /* Text3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15CB2C158F8E00AF3D3B /* Text3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +59,45 @@
 		B23932E12C0C801A0072CC1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B23932E32C0C801C0072CC1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B23932E62C0C801C0072CC1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B23932EE2C0C80600072CC1D /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B23932F02C0C806E0072CC1D /* MainBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBasic.swift; sourceTree = "<group>"; };
+		B23932F22C0C807D0072CC1D /* MainIntermediate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainIntermediate.swift; sourceTree = "<group>"; };
+		B23932F42C0C80860072CC1D /* MainAdvance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAdvance.swift; sourceTree = "<group>"; };
+		B23932FD2C0C814F0072CC1D /* B1_intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B1_intro.swift; sourceTree = "<group>"; };
+		B23932FF2C0C81610072CC1D /* B2_what_is_meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2_what_is_meta.swift; sourceTree = "<group>"; };
+		B23933012C0C816E0072CC1D /* B3_download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B3_download.swift; sourceTree = "<group>"; };
+		B23933032C0C81780072CC1D /* B4_install.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B4_install.swift; sourceTree = "<group>"; };
+		B23933052C0C818A0072CC1D /* B5_meta_module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B5_meta_module.swift; sourceTree = "<group>"; };
+		B23933072C0C81980072CC1D /* B6_basic_cmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B6_basic_cmd.swift; sourceTree = "<group>"; };
+		B23933092C0C81A70072CC1D /* B7_meterpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B7_meterpreter.swift; sourceTree = "<group>"; };
+		B239330B2C0C81BA0072CC1D /* B8_meterpreter_cmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B8_meterpreter_cmd.swift; sourceTree = "<group>"; };
+		B239330D2C0C81C70072CC1D /* B9_armitage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B9_armitage.swift; sourceTree = "<group>"; };
+		B239330F2C0C81DC0072CC1D /* B10_console_cmd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B10_console_cmd.swift; sourceTree = "<group>"; };
+		B23933112C0C82040072CC1D /* I1_understand_framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I1_understand_framework.swift; sourceTree = "<group>"; };
+		B23933132C0C82170072CC1D /* I2_meta_install_android.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I2_meta_install_android.swift; sourceTree = "<group>"; };
+		B23933152C0C82290072CC1D /* I3_exploitation_basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I3_exploitation_basic.swift; sourceTree = "<group>"; };
+		B23933172C0C82390072CC1D /* I4_exploiting_vuln.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I4_exploiting_vuln.swift; sourceTree = "<group>"; };
+		B23933192C0C824A0072CC1D /* I5_scanning_n_recon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I5_scanning_n_recon.swift; sourceTree = "<group>"; };
+		B239331B2C0C825C0072CC1D /* I6_client_side_exploitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I6_client_side_exploitation.swift; sourceTree = "<group>"; };
+		B239331D2C0C82710072CC1D /* I7_database_exploitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I7_database_exploitation.swift; sourceTree = "<group>"; };
+		B239331F2C0C82840072CC1D /* I8_metasploit_automation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I8_metasploit_automation.swift; sourceTree = "<group>"; };
+		B23933212C0C829D0072CC1D /* I9_blueTeamExcersice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I9_blueTeamExcersice.swift; sourceTree = "<group>"; };
+		B23933232C0C82B90072CC1D /* I10_comunity_n_resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I10_comunity_n_resources.swift; sourceTree = "<group>"; };
+		B23933252C0C833B0072CC1D /* A1_evasion_technique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A1_evasion_technique.swift; sourceTree = "<group>"; };
+		B23933272C0C83550072CC1D /* A2_exploit_development.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_exploit_development.swift; sourceTree = "<group>"; };
+		B23933292C0C836F0072CC1D /* A3_payload_customization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A3_payload_customization.swift; sourceTree = "<group>"; };
+		B239332B2C0C83880072CC1D /* A4_post_exploitation_module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A4_post_exploitation_module.swift; sourceTree = "<group>"; };
+		B239332D2C0C839D0072CC1D /* A5_fiirewall_bypass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A5_fiirewall_bypass.swift; sourceTree = "<group>"; };
+		B239332F2C0C83B30072CC1D /* A6_webapplication_scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A6_webapplication_scan.swift; sourceTree = "<group>"; };
+		B23933312C0C83CC0072CC1D /* A7_shell_session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A7_shell_session.swift; sourceTree = "<group>"; };
+		B23933332C0C83E70072CC1D /* A8_postexploitaion_techniq.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A8_postexploitaion_techniq.swift; sourceTree = "<group>"; };
+		B23933352C0C84040072CC1D /* A9_social_eng_attacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A9_social_eng_attacks.swift; sourceTree = "<group>"; };
+		B23933372C0C841A0072CC1D /* A10_webapp_penetration_testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10_webapp_penetration_testing.swift; sourceTree = "<group>"; };
+		B23933392C0C842C0072CC1D /* A11_reverse_eng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11_reverse_eng.swift; sourceTree = "<group>"; };
+		B239333B2C0C84E10072CC1D /* BannerAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAds.swift; sourceTree = "<group>"; };
+		B2DD15C72C158F8100AF3D3B /* Text1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1.swift; sourceTree = "<group>"; };
+		B2DD15C92C158F8800AF3D3B /* Text2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2.swift; sourceTree = "<group>"; };
+		B2DD15CB2C158F8E00AF3D3B /* Text3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23932FC2C0C81190072CC1D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +131,16 @@
 		B23932DE2C0C801A0072CC1D /* Metasploit */ = {
 			isa = PBXGroup;
 			children = (
+				B2DD15C62C158F7100AF3D3B /* Component */,
+				B23932ED2C0C80490072CC1D /* Lottie */,
 				B23932DF2C0C801A0072CC1D /* MetasploitApp.swift */,
 				B23932E12C0C801A0072CC1D /* ContentView.swift */,
 				B23932E32C0C801C0072CC1D /* Assets.xcassets */,
 				B23932E52C0C801C0072CC1D /* Preview Content */,
+				B23932F92C0C80B60072CC1D /* Basic */,
+				B23932F82C0C80AB0072CC1D /* Intermediate */,
+				B23932F62C0C80980072CC1D /* Advance */,
+				B239333D2C0C84E60072CC1D /* Ads */,
 			);
 			path = Metasploit;
 			sourceTree = "<group>";
@@ -65,6 +151,87 @@
 				B23932E62C0C801C0072CC1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B23932ED2C0C80490072CC1D /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B23932EE2C0C80600072CC1D /* LottieView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B23932F62C0C80980072CC1D /* Advance */ = {
+			isa = PBXGroup;
+			children = (
+				B23932F42C0C80860072CC1D /* MainAdvance.swift */,
+				B23933252C0C833B0072CC1D /* A1_evasion_technique.swift */,
+				B23933272C0C83550072CC1D /* A2_exploit_development.swift */,
+				B23933292C0C836F0072CC1D /* A3_payload_customization.swift */,
+				B239332B2C0C83880072CC1D /* A4_post_exploitation_module.swift */,
+				B239332D2C0C839D0072CC1D /* A5_fiirewall_bypass.swift */,
+				B239332F2C0C83B30072CC1D /* A6_webapplication_scan.swift */,
+				B23933312C0C83CC0072CC1D /* A7_shell_session.swift */,
+				B23933332C0C83E70072CC1D /* A8_postexploitaion_techniq.swift */,
+				B23933352C0C84040072CC1D /* A9_social_eng_attacks.swift */,
+				B23933372C0C841A0072CC1D /* A10_webapp_penetration_testing.swift */,
+				B23933392C0C842C0072CC1D /* A11_reverse_eng.swift */,
+			);
+			path = Advance;
+			sourceTree = "<group>";
+		};
+		B23932F82C0C80AB0072CC1D /* Intermediate */ = {
+			isa = PBXGroup;
+			children = (
+				B23932F22C0C807D0072CC1D /* MainIntermediate.swift */,
+				B23933112C0C82040072CC1D /* I1_understand_framework.swift */,
+				B23933132C0C82170072CC1D /* I2_meta_install_android.swift */,
+				B23933152C0C82290072CC1D /* I3_exploitation_basic.swift */,
+				B23933172C0C82390072CC1D /* I4_exploiting_vuln.swift */,
+				B23933192C0C824A0072CC1D /* I5_scanning_n_recon.swift */,
+				B239331B2C0C825C0072CC1D /* I6_client_side_exploitation.swift */,
+				B239331D2C0C82710072CC1D /* I7_database_exploitation.swift */,
+				B239331F2C0C82840072CC1D /* I8_metasploit_automation.swift */,
+				B23933212C0C829D0072CC1D /* I9_blueTeamExcersice.swift */,
+				B23933232C0C82B90072CC1D /* I10_comunity_n_resources.swift */,
+			);
+			path = Intermediate;
+			sourceTree = "<group>";
+		};
+		B23932F92C0C80B60072CC1D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				B23932F02C0C806E0072CC1D /* MainBasic.swift */,
+				B23932FD2C0C814F0072CC1D /* B1_intro.swift */,
+				B23932FF2C0C81610072CC1D /* B2_what_is_meta.swift */,
+				B23933012C0C816E0072CC1D /* B3_download.swift */,
+				B23933032C0C81780072CC1D /* B4_install.swift */,
+				B23933052C0C818A0072CC1D /* B5_meta_module.swift */,
+				B23933072C0C81980072CC1D /* B6_basic_cmd.swift */,
+				B23933092C0C81A70072CC1D /* B7_meterpreter.swift */,
+				B239330B2C0C81BA0072CC1D /* B8_meterpreter_cmd.swift */,
+				B239330D2C0C81C70072CC1D /* B9_armitage.swift */,
+				B239330F2C0C81DC0072CC1D /* B10_console_cmd.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		B239333D2C0C84E60072CC1D /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				B239333B2C0C84E10072CC1D /* BannerAds.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		B2DD15C62C158F7100AF3D3B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				B2DD15C72C158F8100AF3D3B /* Text1.swift */,
+				B2DD15C92C158F8800AF3D3B /* Text2.swift */,
+				B2DD15CB2C158F8E00AF3D3B /* Text3.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +250,9 @@
 			dependencies = (
 			);
 			name = Metasploit;
+			packageProductDependencies = (
+				B23932FB2C0C81190072CC1D /* Lottie */,
+			);
 			productName = Metasploit;
 			productReference = B23932DC2C0C801A0072CC1D /* Metasploit.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +281,9 @@
 				Base,
 			);
 			mainGroup = B23932D32C0C801A0072CC1D;
+			packageReferences = (
+				B23932FA2C0C81190072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B23932DD2C0C801A0072CC1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +310,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23933382C0C841A0072CC1D /* A10_webapp_penetration_testing.swift in Sources */,
+				B239333A2C0C842C0072CC1D /* A11_reverse_eng.swift in Sources */,
+				B239330C2C0C81BA0072CC1D /* B8_meterpreter_cmd.swift in Sources */,
+				B23933222C0C829D0072CC1D /* I9_blueTeamExcersice.swift in Sources */,
+				B23933002C0C81610072CC1D /* B2_what_is_meta.swift in Sources */,
+				B2DD15CA2C158F8800AF3D3B /* Text2.swift in Sources */,
+				B23933302C0C83B30072CC1D /* A6_webapplication_scan.swift in Sources */,
+				B23933122C0C82040072CC1D /* I1_understand_framework.swift in Sources */,
+				B23933322C0C83CC0072CC1D /* A7_shell_session.swift in Sources */,
+				B23933082C0C81980072CC1D /* B6_basic_cmd.swift in Sources */,
 				B23932E22C0C801A0072CC1D /* ContentView.swift in Sources */,
+				B239332C2C0C83880072CC1D /* A4_post_exploitation_module.swift in Sources */,
+				B23933262C0C833B0072CC1D /* A1_evasion_technique.swift in Sources */,
+				B239330A2C0C81A70072CC1D /* B7_meterpreter.swift in Sources */,
+				B23933282C0C83550072CC1D /* A2_exploit_development.swift in Sources */,
+				B23932F32C0C807D0072CC1D /* MainIntermediate.swift in Sources */,
+				B23933042C0C81780072CC1D /* B4_install.swift in Sources */,
+				B239331A2C0C824A0072CC1D /* I5_scanning_n_recon.swift in Sources */,
+				B23932F12C0C806E0072CC1D /* MainBasic.swift in Sources */,
+				B239332A2C0C836F0072CC1D /* A3_payload_customization.swift in Sources */,
+				B239331E2C0C82710072CC1D /* I7_database_exploitation.swift in Sources */,
+				B23933202C0C82840072CC1D /* I8_metasploit_automation.swift in Sources */,
+				B23933102C0C81DC0072CC1D /* B10_console_cmd.swift in Sources */,
+				B23933342C0C83E70072CC1D /* A8_postexploitaion_techniq.swift in Sources */,
+				B23932F52C0C80860072CC1D /* MainAdvance.swift in Sources */,
+				B239333C2C0C84E10072CC1D /* BannerAds.swift in Sources */,
+				B23933242C0C82B90072CC1D /* I10_comunity_n_resources.swift in Sources */,
+				B23932FE2C0C814F0072CC1D /* B1_intro.swift in Sources */,
+				B239332E2C0C839D0072CC1D /* A5_fiirewall_bypass.swift in Sources */,
+				B2DD15CC2C158F8E00AF3D3B /* Text3.swift in Sources */,
+				B239330E2C0C81C70072CC1D /* B9_armitage.swift in Sources */,
 				B23932E02C0C801A0072CC1D /* MetasploitApp.swift in Sources */,
+				B23933182C0C82390072CC1D /* I4_exploiting_vuln.swift in Sources */,
+				B23932EF2C0C80600072CC1D /* LottieView.swift in Sources */,
+				B23933142C0C82170072CC1D /* I2_meta_install_android.swift in Sources */,
+				B23933062C0C818A0072CC1D /* B5_meta_module.swift in Sources */,
+				B23933362C0C84040072CC1D /* A9_social_eng_attacks.swift in Sources */,
+				B2DD15C82C158F8100AF3D3B /* Text1.swift in Sources */,
+				B23933162C0C82290072CC1D /* I3_exploitation_basic.swift in Sources */,
+				B239331C2C0C825C0072CC1D /* I6_client_side_exploitation.swift in Sources */,
+				B23933022C0C816E0072CC1D /* B3_download.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +556,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B23932FA2C0C81190072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B23932FB2C0C81190072CC1D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B23932FA2C0C81190072CC1D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B23932D42C0C801A0072CC1D /* Project object */;
 }
