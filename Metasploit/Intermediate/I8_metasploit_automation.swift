@@ -56,23 +56,42 @@ struct I8_metasploit_automation: View {
     Remember to exercise caution when automating tasks in Metasploit and ensure that you have proper authorization and permission to perform the automated actions. Unauthorized and malicious use of automation features is illegal and unethical. Always adhere to legal and ethical guidelines when conducting security assessments and penetration testing activities.
     """
     let l16 = """
-    Additionally, it\'s important to thoroughly understand the automation features and techniques you plan to use and consider the potential risks and implications associated with automation in your specific use case.
+Additionally, it\'s important to thoroughly understand the automation features and techniques you plan to use and consider the potential risks and implications associated with automation in your specific use case.
 """
     
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
+                        
+                        Head(title: l1)
+                        
+                        Stext(title: l2)
+                        
+                        Text2(title1: l3, title2: l4)
+                        
+                        Text2(title1: l5, title2: l6)
+                        
+                        Text2(title1: l7, title2: l8)
+                        
+                        Text2(title1: l9, title2: l10)
+                        
+                        Text2(title1: l11, title2: l12)
+                        
+                        Text2(title1: l13, title2: l14)
+                        
+                        Stext(title: l15)
+                        Stext(title: l16)
+                        
+                        
                         
                         
                         
@@ -88,7 +107,7 @@ struct I8_metasploit_automation: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

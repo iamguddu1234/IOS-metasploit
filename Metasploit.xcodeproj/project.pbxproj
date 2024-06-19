@@ -48,6 +48,17 @@
 		B23933382C0C841A0072CC1D /* A10_webapp_penetration_testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933372C0C841A0072CC1D /* A10_webapp_penetration_testing.swift */; };
 		B239333A2C0C842C0072CC1D /* A11_reverse_eng.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23933392C0C842C0072CC1D /* A11_reverse_eng.swift */; };
 		B239333C2C0C84E10072CC1D /* BannerAds.swift in Sources */ = {isa = PBXBuildFile; fileRef = B239333B2C0C84E10072CC1D /* BannerAds.swift */; };
+		B2D1670A2C21A9B3007B0F31 /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167092C21A9B3007B0F31 /* Head.swift */; };
+		B2D1670C2C21AB6A007B0F31 /* Stext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1670B2C21AB6A007B0F31 /* Stext.swift */; };
+		B2D1670E2C21ABE9007B0F31 /* Text4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1670D2C21ABE9007B0F31 /* Text4.swift */; };
+		B2D167102C21ACDA007B0F31 /* Text5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1670F2C21ACDA007B0F31 /* Text5.swift */; };
+		B2D1671F2C22C64F007B0F31 /* Text7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1671E2C22C64F007B0F31 /* Text7.swift */; };
+		B2D167212C22D922007B0F31 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167202C22D922007B0F31 /* Single.swift */; };
+		B2D167232C22DC56007B0F31 /* M1_basic_n_filehandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167222C22DC56007B0F31 /* M1_basic_n_filehandling.swift */; };
+		B2D167252C22DC65007B0F31 /* M2_process.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167242C22DC65007B0F31 /* M2_process.swift */; };
+		B2D167272C22DC70007B0F31 /* M3_networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167262C22DC70007B0F31 /* M3_networking.swift */; };
+		B2D167292C22DC78007B0F31 /* M4_interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D167282C22DC78007B0F31 /* M4_interface.swift */; };
+		B2D1672B2C22DC81007B0F31 /* M5_password.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D1672A2C22DC81007B0F31 /* M5_password.swift */; };
 		B2DD15C82C158F8100AF3D3B /* Text1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15C72C158F8100AF3D3B /* Text1.swift */; };
 		B2DD15CA2C158F8800AF3D3B /* Text2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15C92C158F8800AF3D3B /* Text2.swift */; };
 		B2DD15CC2C158F8E00AF3D3B /* Text3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DD15CB2C158F8E00AF3D3B /* Text3.swift */; };
@@ -95,6 +106,17 @@
 		B23933372C0C841A0072CC1D /* A10_webapp_penetration_testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A10_webapp_penetration_testing.swift; sourceTree = "<group>"; };
 		B23933392C0C842C0072CC1D /* A11_reverse_eng.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A11_reverse_eng.swift; sourceTree = "<group>"; };
 		B239333B2C0C84E10072CC1D /* BannerAds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAds.swift; sourceTree = "<group>"; };
+		B2D167092C21A9B3007B0F31 /* Head.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
+		B2D1670B2C21AB6A007B0F31 /* Stext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stext.swift; sourceTree = "<group>"; };
+		B2D1670D2C21ABE9007B0F31 /* Text4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text4.swift; sourceTree = "<group>"; };
+		B2D1670F2C21ACDA007B0F31 /* Text5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text5.swift; sourceTree = "<group>"; };
+		B2D1671E2C22C64F007B0F31 /* Text7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text7.swift; sourceTree = "<group>"; };
+		B2D167202C22D922007B0F31 /* Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
+		B2D167222C22DC56007B0F31 /* M1_basic_n_filehandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M1_basic_n_filehandling.swift; sourceTree = "<group>"; };
+		B2D167242C22DC65007B0F31 /* M2_process.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M2_process.swift; sourceTree = "<group>"; };
+		B2D167262C22DC70007B0F31 /* M3_networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M3_networking.swift; sourceTree = "<group>"; };
+		B2D167282C22DC78007B0F31 /* M4_interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M4_interface.swift; sourceTree = "<group>"; };
+		B2D1672A2C22DC81007B0F31 /* M5_password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M5_password.swift; sourceTree = "<group>"; };
 		B2DD15C72C158F8100AF3D3B /* Text1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text1.swift; sourceTree = "<group>"; };
 		B2DD15C92C158F8800AF3D3B /* Text2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2.swift; sourceTree = "<group>"; };
 		B2DD15CB2C158F8E00AF3D3B /* Text3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text3.swift; sourceTree = "<group>"; };
@@ -210,8 +232,13 @@
 				B23933072C0C81980072CC1D /* B6_basic_cmd.swift */,
 				B23933092C0C81A70072CC1D /* B7_meterpreter.swift */,
 				B239330B2C0C81BA0072CC1D /* B8_meterpreter_cmd.swift */,
+				B2D167242C22DC65007B0F31 /* M2_process.swift */,
+				B2D167262C22DC70007B0F31 /* M3_networking.swift */,
+				B2D167282C22DC78007B0F31 /* M4_interface.swift */,
+				B2D1672A2C22DC81007B0F31 /* M5_password.swift */,
 				B239330D2C0C81C70072CC1D /* B9_armitage.swift */,
 				B239330F2C0C81DC0072CC1D /* B10_console_cmd.swift */,
+				B2D167222C22DC56007B0F31 /* M1_basic_n_filehandling.swift */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -230,6 +257,12 @@
 				B2DD15C72C158F8100AF3D3B /* Text1.swift */,
 				B2DD15C92C158F8800AF3D3B /* Text2.swift */,
 				B2DD15CB2C158F8E00AF3D3B /* Text3.swift */,
+				B2D167092C21A9B3007B0F31 /* Head.swift */,
+				B2D1670B2C21AB6A007B0F31 /* Stext.swift */,
+				B2D1670D2C21ABE9007B0F31 /* Text4.swift */,
+				B2D1670F2C21ACDA007B0F31 /* Text5.swift */,
+				B2D1671E2C22C64F007B0F31 /* Text7.swift */,
+				B2D167202C22D922007B0F31 /* Single.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -313,6 +346,7 @@
 				B23933382C0C841A0072CC1D /* A10_webapp_penetration_testing.swift in Sources */,
 				B239333A2C0C842C0072CC1D /* A11_reverse_eng.swift in Sources */,
 				B239330C2C0C81BA0072CC1D /* B8_meterpreter_cmd.swift in Sources */,
+				B2D167272C22DC70007B0F31 /* M3_networking.swift in Sources */,
 				B23933222C0C829D0072CC1D /* I9_blueTeamExcersice.swift in Sources */,
 				B23933002C0C81610072CC1D /* B2_what_is_meta.swift in Sources */,
 				B2DD15CA2C158F8800AF3D3B /* Text2.swift in Sources */,
@@ -321,29 +355,39 @@
 				B23933322C0C83CC0072CC1D /* A7_shell_session.swift in Sources */,
 				B23933082C0C81980072CC1D /* B6_basic_cmd.swift in Sources */,
 				B23932E22C0C801A0072CC1D /* ContentView.swift in Sources */,
+				B2D167212C22D922007B0F31 /* Single.swift in Sources */,
 				B239332C2C0C83880072CC1D /* A4_post_exploitation_module.swift in Sources */,
 				B23933262C0C833B0072CC1D /* A1_evasion_technique.swift in Sources */,
 				B239330A2C0C81A70072CC1D /* B7_meterpreter.swift in Sources */,
 				B23933282C0C83550072CC1D /* A2_exploit_development.swift in Sources */,
+				B2D1670E2C21ABE9007B0F31 /* Text4.swift in Sources */,
 				B23932F32C0C807D0072CC1D /* MainIntermediate.swift in Sources */,
 				B23933042C0C81780072CC1D /* B4_install.swift in Sources */,
+				B2D1672B2C22DC81007B0F31 /* M5_password.swift in Sources */,
 				B239331A2C0C824A0072CC1D /* I5_scanning_n_recon.swift in Sources */,
 				B23932F12C0C806E0072CC1D /* MainBasic.swift in Sources */,
 				B239332A2C0C836F0072CC1D /* A3_payload_customization.swift in Sources */,
 				B239331E2C0C82710072CC1D /* I7_database_exploitation.swift in Sources */,
+				B2D1670A2C21A9B3007B0F31 /* Head.swift in Sources */,
+				B2D167102C21ACDA007B0F31 /* Text5.swift in Sources */,
 				B23933202C0C82840072CC1D /* I8_metasploit_automation.swift in Sources */,
 				B23933102C0C81DC0072CC1D /* B10_console_cmd.swift in Sources */,
 				B23933342C0C83E70072CC1D /* A8_postexploitaion_techniq.swift in Sources */,
 				B23932F52C0C80860072CC1D /* MainAdvance.swift in Sources */,
+				B2D1671F2C22C64F007B0F31 /* Text7.swift in Sources */,
+				B2D167292C22DC78007B0F31 /* M4_interface.swift in Sources */,
 				B239333C2C0C84E10072CC1D /* BannerAds.swift in Sources */,
 				B23933242C0C82B90072CC1D /* I10_comunity_n_resources.swift in Sources */,
 				B23932FE2C0C814F0072CC1D /* B1_intro.swift in Sources */,
 				B239332E2C0C839D0072CC1D /* A5_fiirewall_bypass.swift in Sources */,
 				B2DD15CC2C158F8E00AF3D3B /* Text3.swift in Sources */,
 				B239330E2C0C81C70072CC1D /* B9_armitage.swift in Sources */,
+				B2D1670C2C21AB6A007B0F31 /* Stext.swift in Sources */,
 				B23932E02C0C801A0072CC1D /* MetasploitApp.swift in Sources */,
 				B23933182C0C82390072CC1D /* I4_exploiting_vuln.swift in Sources */,
 				B23932EF2C0C80600072CC1D /* LottieView.swift in Sources */,
+				B2D167232C22DC56007B0F31 /* M1_basic_n_filehandling.swift in Sources */,
+				B2D167252C22DC65007B0F31 /* M2_process.swift in Sources */,
 				B23933142C0C82170072CC1D /* I2_meta_install_android.swift in Sources */,
 				B23933062C0C818A0072CC1D /* B5_meta_module.swift in Sources */,
 				B23933362C0C84040072CC1D /* A9_social_eng_attacks.swift in Sources */,

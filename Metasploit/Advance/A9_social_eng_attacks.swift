@@ -56,18 +56,30 @@ struct A9_social_eng_attacks: View {
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
                         
+                        Head(title: h1)
+                        
+                        Stext(title: h2)
+                        
+                        Text4(title1: h3, title2: h4, title3: h5, title4: h6)
+                        
+                        Stext(title: h7)
+                        
+                        Text5(title1: h8, title2: h9, title3: h10, title4: h11, title5: h12)
+                        
+                      
+                        
+                        Stext(title: h13)
+                        Stext(title: h14)
                         
                         
                         
@@ -82,7 +94,7 @@ struct A9_social_eng_attacks: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

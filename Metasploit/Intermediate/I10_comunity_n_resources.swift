@@ -56,26 +56,44 @@ struct I10_comunity_n_resources: View {
     Remember to engage with the Metasploit community respectfully, follow community guidelines, and prioritize responsible disclosure when sharing information or reporting vulnerabilities.
     """
     let m16 = """
-    These resources and community platforms offer a wealth of information, guidance, and collaboration opportunities for Metasploit users. They can help you enhance your knowledge, troubleshoot issues, and stay connected with the evolving Metasploit ecosystem.
+These resources and community platforms offer a wealth of information, guidance, and collaboration opportunities for Metasploit users. They can help you enhance your knowledge, troubleshoot issues, and stay connected with the evolving Metasploit ecosystem.
 """
-   
+    
     
     
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
                         
+                        Head(title: m1)
+                        
+                        Stext(title: m2)
+                        
+                        Text2(title1: m3, title2: m4)
+                        
+                        Text2(title1: m5, title2: m6)
+                        
+                        Text2(title1: m7, title2: m8)
+                        
+                        Text2(title1: m9, title2: m10)
+                        
+                        Text2(title1: m11, title2: m12)
+                        
+                        Text2(title1: m13, title2: m14)
+                        
+                        Stext(title: m15)
+                        Stext(title: m16)
+                        
+//                        Text2(title1: m15, title2: m16)
                         
                         
                         
@@ -90,7 +108,7 @@ struct I10_comunity_n_resources: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

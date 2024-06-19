@@ -67,24 +67,48 @@ struct I9_blueTeamExcersice: View {
     `exploit/multi/browser` includes multi-platform browser exploits.
     """
     let u20  = """
-    `exploit/windows/browser` contains a variety of browser exploits for different versions and vulnerabilities.
+`exploit/windows/browser` contains a variety of browser exploits for different versions and vulnerabilities.
 """
     
     
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
+                        
+                        Head(title: u1)
+                        
+                        Stext(title: u2)
+                        
+                        Text2(title1: u3, title2: u4)
+                        
+                        Text2(title1: u5, title2: u6)
+                        
+                        Text2(title1: u7, title2: u8)
+                        
+                        Text2(title1: u9, title2: u10)
+                        
+                        Text2(title1: u11, title2: u12)
+                        
+                        Text2(title1: u13, title2: u14)
+                        
+                        Stext(title: u15)
+                        Stext(title: u16)
+
+                        
+                        //Text2(title1: u15, title2: u16)
+                        
+//                        Text2(title1: u17, title2: u18)
+//                        
+//                        Text2(title1: u19, title2: u20)
                         
                         
                         
@@ -100,7 +124,7 @@ struct I9_blueTeamExcersice: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

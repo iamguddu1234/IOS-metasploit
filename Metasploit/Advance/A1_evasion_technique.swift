@@ -52,24 +52,39 @@ struct A1_evasion_technique: View {
     Metasploit supports encryption and cryptographic techniques that can be used to protect communication channels and evade detection. By encrypting the payload or establishing encrypted channels, detection mechanisms may struggle to analyze the content or identify malicious behavior.
     """
     let p15 = """
-    It\'s important to note that while these evasion techniques can be effective in bypassing certain security measures, they are intended for authorized security testing purposes and should not be used for malicious activities. Responsible use of these techniques is crucial, ensuring compliance with legal and ethical guidelines, and obtaining proper authorization before conducting any security testing.
+It\'s important to note that while these evasion techniques can be effective in bypassing certain security measures, they are intended for authorized security testing purposes and should not be used for malicious activities. Responsible use of these techniques is crucial, ensuring compliance with legal and ethical guidelines, and obtaining proper authorization before conducting any security testing.
 """
     
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
+            Color("bg").ignoresSafeArea()
             
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
                         
+                        Head(title: p1)
+                        
+                        Stext(title: p2)
+                        
+                        Text2(title1: p3, title2: p4)
+                        
+                        Text2(title1: p5, title2: p6)
+                        
+                        Text2(title1: p7, title2: p8)
+                        
+                        Text2(title1: p9, title2: p10)
+                        
+                        Text2(title1: p11, title2: p12)
+                        
+                        Text2(title1: p13, title2: p14)
+                        
+                        Stext(title: p15)
                         
                         
                         
@@ -84,7 +99,7 @@ struct A1_evasion_technique: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

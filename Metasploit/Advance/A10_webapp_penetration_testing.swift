@@ -120,17 +120,45 @@ struct A10_webapp_penetration_testing: View {
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
+                        
+                        Head(title: j1)
+                        
+                        Stext(title: j2)
+                        
+                        Text2(title1: j3, title2: j4)
+                        
+                        Text2(title1: j5, title2: j6)
+                        
+                        Text2(title1: j7, title2: j8)
+                        
+                        Text2(title1: j9, title2: j10)
+                        
+                        Text2(title1: j11, title2: j12)
+                        
+                        Text2(title1: j13, title2: j14)
+                        
+                        Text2(title1: j15, title2: j16)
+                        
+                        Text2(title1: j17, title2: j18)
+                        
+                        Text2(title1: j19, title2: j20)
+                        
+                        Text2(title1: j21, title2: j22)
+                        
+                        Text2(title1: j23, title2: j24)
+                        
+                        Text2(title1: j25, title2: j26)
+                        
+                        Stext(title: j27)
                         
                         
                         
@@ -146,7 +174,7 @@ struct A10_webapp_penetration_testing: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

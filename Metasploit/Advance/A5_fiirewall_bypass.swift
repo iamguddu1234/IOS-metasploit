@@ -33,20 +33,24 @@ struct A5_fiirewall_bypass: View {
     WAFs typically employ signature-based filtering, behavior-based analysis, or anomaly detection to identify and block malicious traffic. To bypass these filters, evasion techniques can be employed, such as:
     """
     
+    let s7_title = "Modifying Request Headers:"
     let s7 = """
-    Modifying Request Headers: Adjusting User-Agent, Referer, or Content-Type headers to disguise the requests as legitimate traffic.
+     Adjusting User-Agent, Referer, or Content-Type headers to disguise the requests as legitimate traffic.
     """
     
+    let s8_title = "Obfuscating Payloads: "
     let s8 = """
-    Obfuscating Payloads: Encoding or encrypting payloads to evade signature-based detection.
+    Encoding or encrypting payloads to evade signature-based detection.
     """
     
+    let s9_title = "Fragmentation: "
     let s9 = """
-    Fragmentation: Splitting requests or payloads into smaller fragments to bypass pattern matching filters.
-    """
+Splitting requests or payloads into smaller fragments to bypass pattern matching filters.
+"""
     
+    let s10_title = "Protocol-Level Evasion:"
     let s10 = """
-    Protocol-Level Evasion: Modifying HTTP protocol behavior, using non-standard HTTP methods, or using different encoding schemes.
+     Modifying HTTP protocol behavior, using non-standard HTTP methods, or using different encoding schemes.
     """
     
     let s11 = """
@@ -124,17 +128,50 @@ struct A5_fiirewall_bypass: View {
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
+                        
+                        Head(title: s1)
+                        
+                        Stext(title: s2)
+                        
+                        Text2(title1: s3, title2: s4)
+                        
+                        Text2(title1: s5, title2: s6)
+                        
+                        Text2(title1: s7_title, title2: s7)
+                        Text2(title1: s8_title, title2: s8)
+                        Text2(title1: s9_title, title2: s9)
+                        Text2(title1: s10_title, title2: s10)
+
+            
+                        
+                        Text2(title1: s11, title2: s12)
+                        
+                        Text2(title1: s13, title2: s14)
+                        
+                        Stext(title: s15)
+                        
+                        Text2(title1: s17, title2: s18)
+                        
+                        Text2(title1: s19, title2: s20)
+                        
+                        Text2(title1: s21, title2: s22)
+                        
+                        Text2(title1: s23, title2: s24)
+                        
+                        Text2(title1: s25, title2: s26)
+                        
+                        Text2(title1: s27, title2: s28)
+                        
+                        Stext(title: s29)
                         
                         
                         
@@ -150,7 +187,7 @@ struct A5_fiirewall_bypass: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

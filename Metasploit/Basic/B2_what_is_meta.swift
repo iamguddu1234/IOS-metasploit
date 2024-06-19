@@ -26,7 +26,7 @@ struct B2_what_is_meta: View {
                             .frame(width: .infinity, height: 200)
                         
                         
-                        Text1(title: aa3)
+                        Stext(title: aa3)
                         
                         
                         

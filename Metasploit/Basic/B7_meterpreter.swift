@@ -33,9 +33,9 @@ struct B7_meterpreter: View {
                         
                        
                         
-                        Text1(title: aa17)
-                        Text1(title: aa18)
-                        Text1(title: aa19)
+                        Stext(title: aa17)
+                        Stext(title: aa18)
+                        Stext(title: aa19)
                         
                         
                         

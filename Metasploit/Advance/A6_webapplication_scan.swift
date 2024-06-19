@@ -192,17 +192,59 @@ struct A6_webapplication_scan: View {
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
+                        
+                        Head(title: q1)
+                        
+                        Stext(title: q2)
+                        
+                        Text3(title1: q3, title2: q4, title3: q5)
+                        
+                        Text3(title1: q6, title2: q7, title3: q8)
+                        
+                        Text3(title1: q9, title2: q10, title3: q11)
+                        
+                        Text3(title1: q12, title2: q13, title3: q14)
+                        
+                        Text2(title1: q15, title2: q16)
+                        
+                        Text2(title1: q20, title2: q21)
+                        
+                        Text2(title1: q22, title2: q23)
+                        
+                        Text2(title1: q24, title2: q25)
+                        
+                        Text2(title1: q26, title2: q27)
+                        
+                        Text2(title1: q28, title2: q29)
+                        
+                        Text2(title1: q30, title2: q31)
+                        
+                        Text2(title1: q32, title2: q33)
+                        
+                        Text2(title1: q37, title2: q38)
+                        
+                        Text2(title1: q39, title2: q40)
+                        
+                        Text2(title1: q41, title2: q42)
+                        
+                        Text2(title1: q43, title2: q44)
+                        
+                        Text2(title1: q45, title2: q46)
+                        
+                        Text2(title1: q47, title2: q48)
+                        
+                        Text2(title1: q49, title2: q50)
+                        
+                        Stext(title: q51)
                         
                         
                         
@@ -218,7 +260,7 @@ struct A6_webapplication_scan: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

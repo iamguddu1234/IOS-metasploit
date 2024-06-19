@@ -32,8 +32,8 @@ This tutorial is meant for beginners who would like to learn the basic-to-advanc
                             .frame(width: .infinity, height: 200)
                         
                         
-                        Text1(title: aa1)
-                        Text1(title: aa2)
+                        Stext(title: aa1)
+                        Stext(title: aa2)
                         
                         
                         

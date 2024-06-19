@@ -1,39 +1,30 @@
 //
-//  Text2.swift
+//  Single.swift
 //  Metasploit
 //
-//  Created by Akshay Bhasme on 09/06/24.
+//  Created by Akshay Bhasme on 19/06/24.
 //
 
 import SwiftUI
 
-struct Text2: View {
-    
-    var title1 : String
-    var title2 : String
+struct Single: View {
+    var title : String
 
     
     var body: some View {
         
-        VStack(alignment: .leading, spacing: 15){
+        HStack{
             
-                Text(title1)
+                Text(title)
                     .font(.system(size: 18, weight: .medium))
                     .fontWeight(.semibold)
                     .fontDesign(.rounded)
                     .lineSpacing(5)
             
-            Divider()
-                
-                Text(title2)
-                    .font(.system(size: 18, weight: .medium))
-                    .fontWeight(.regular)
-                    .fontDesign(.rounded)
-                    .lineSpacing(5)
+            Spacer()
             
-            
-            
-//            Divider()
+        
+
 
         }
         .padding()
@@ -48,5 +39,5 @@ struct Text2: View {
 }
 
 #Preview {
-    Text2(title1: "title", title2: "Subtitle")
+    Single(title: "title")
 }

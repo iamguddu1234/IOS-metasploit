@@ -1,18 +1,22 @@
 //
-//  Text3.swift
+//  Text7.swift
 //  Metasploit
 //
-//  Created by Akshay Bhasme on 09/06/24.
+//  Created by Akshay Bhasme on 19/06/24.
 //
 
 import SwiftUI
 
-struct Text3: View {
-    
+struct Text7: View {
     var title1 : String
     var title2 : String
     var title3 : String
-    
+    var title4 : String
+    var title5 : String
+    var title6 : String
+    var title7 : String
+
+
     var body: some View {
         VStack(alignment: .leading, spacing: 15){
             
@@ -23,7 +27,6 @@ struct Text3: View {
                 .lineSpacing(5)
             
             Divider()
-
             
             Text(title2)
                 .font(.system(size: 18, weight: .medium))
@@ -37,7 +40,33 @@ struct Text3: View {
                 .fontDesign(.rounded)
                 .lineSpacing(5)
             
+            Text(title4)
+                .font(.system(size: 18, weight: .medium))
+                .fontWeight(.regular)
+                .fontDesign(.rounded)
+                .lineSpacing(5)
+            
+            Text(title5)
+                .font(.system(size: 18, weight: .medium))
+                .fontWeight(.regular)
+                .fontDesign(.rounded)
+                .lineSpacing(5)
+            
+            Text(title6)
+                .font(.system(size: 18, weight: .medium))
+                .fontWeight(.regular)
+                .fontDesign(.rounded)
+                .lineSpacing(5)
+            
+            Text(title7)
+                .font(.system(size: 18, weight: .medium))
+                .fontWeight(.regular)
+                .fontDesign(.rounded)
+                .lineSpacing(5)
+            
+            
         }
+        
         .padding()
         .background(Color.white)
         .cornerRadius(10)
@@ -51,5 +80,5 @@ struct Text3: View {
 }
     
     #Preview {
-        Text3(title1: "title", title2: "Demo", title3: "Tlte")
+        Text5(title1: "title", title2: "Demo", title3: "Tlte", title4: "Tlte", title5: "Tlte")
     }

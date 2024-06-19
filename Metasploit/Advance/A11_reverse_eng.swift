@@ -9,6 +9,7 @@ import SwiftUI
 
 struct A11_reverse_eng: View {
     
+    
     let t1 = """
     METASPLOIT REVERSE ENGINEERING: REVERSE ENGINEERING AND ANALYZING MALWARE USING METASPLOIT\'S TOOLS AND CAPABILITIES.
     """
@@ -20,23 +21,33 @@ struct A11_reverse_eng: View {
     let t3 = """
     For reverse engineering and malware analysis, there are specialized tools and frameworks available that are better suited for these tasks. Some popular tools used in the field of malware analysis include:
     """
-    
+    let t4_title = """
+    IDA Pro
+    """
     let t4 = """
     A widely used disassembler and debugger for analyzing executable files and binaries.
     """
-    
+    let t5_title = """
+    OllyDbg
+    """
     let t5 = """
     A Windows-based debugger that allows for dynamic analysis of malware.
     """
-    
+    let t6_title = """
+    Ghidra
+    """
     let t6 = """
     A powerful and free software reverse engineering framework developed by the National Security Agency (NSA).
     """
-    
+    let t7_title = """
+    Binary Ninja
+    """
     let t7 = """
     A commercial binary analysis platform with features for reverse engineering and vulnerability analysis.
     """
-    
+    let t8_title = """
+    Redare2
+    """
     let t8 = """
     A free and open-source reverse engineering framework that supports various architectures and file formats.
     """
@@ -56,19 +67,40 @@ struct A11_reverse_eng: View {
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
+                        
+                        Head(title: t1)
+                        
+                        Stext(title: t2)
+                        
+                        Stext(title: t3)
                         
                         
+                        Text2(title1: t4_title, title2: t4)
+                        
+                        Text2(title1: t5_title, title2: t5)
+                        
+                        
+                        Text2(title1: t6_title, title2: t6)
+                        
+                        Text2(title1: t7_title, title2: t7)
+                        
+                        Text2(title1: t8_title, title2: t8)
+                        
+                        Stext(title: t9)
+                        
+                        Stext(title: t10)
+                        
+                        Stext(title: t11)
+
                         
                         
                         
@@ -82,7 +114,7 @@ struct A11_reverse_eng: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

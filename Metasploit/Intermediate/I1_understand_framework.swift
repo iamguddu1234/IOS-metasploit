@@ -105,7 +105,7 @@ let b26 = """
     """
 
 let b27 = """
-    The architecture of the Metasploit Framework is modular and extensible, allowing security professionals to customize and adapt it to their specific needs. It provides a robust set of tools and resources for ethical hacking, vulnerability assessment, and penetration testing. However, it is important to always use the Metasploit Framework responsibly and within the bounds of the law and ethical guidelines.
+The architecture of the Metasploit Framework is modular and extensible, allowing security professionals to customize and adapt it to their specific needs. It provides a robust set of tools and resources for ethical hacking, vulnerability assessment, and penetration testing. However, it is important to always use the Metasploit Framework responsibly and within the bounds of the law and ethical guidelines.
 """
 
 
@@ -113,8 +113,8 @@ struct I1_understand_framework: View {
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
@@ -122,8 +122,35 @@ struct I1_understand_framework: View {
                         
                         
                         
+                        Head(title: b1)
                         
-                        //                        Text1(title: aa1)
+                        Stext(title: b2)
+                        
+                        Text2(title1: b3, title2: b4)
+                        
+                        Text2(title1: b5, title2: b6)
+                        
+                        Text2(title1: b7, title2: b8)
+                        
+                        Text2(title1: b9, title2: b10)
+                        
+                        Text2(title1: b11, title2: b12)
+                        
+                        Text2(title1: b13, title2: b14)
+                        
+                        Text2(title1: b15, title2: b16)
+                        
+                        Text2(title1: b17, title2: b18)
+                        
+                        Text2(title1: b19, title2: b20)
+                        
+                        Text2(title1: b21, title2: b22)
+                        
+                        Text2(title1: b23, title2: b24)
+                        
+                        Text2(title1: b25, title2: b26)
+                        
+                        Stext(title: b27)
                         
                         
                         

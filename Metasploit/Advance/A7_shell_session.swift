@@ -70,17 +70,29 @@ struct A7_shell_session: View {
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
+                        
+                        Head(title: f1)
+                        
+                        Stext(title: f2)
+                        
+                        Text4(title1: f3, title2: f4, title3: f5, title4: f6)
+                        
+                        Text4(title1: f7, title2: f8, title3: f9, title4: f10)
+                        
+                        Text4(title1: f11, title2: f12, title3: f13, title4: f14)
+                        
+                        Text4(title1: f15, title2: f16, title3: f17, title4: f18)
+                        
+                        Stext(title: f19)
                         
                         
                         
@@ -96,7 +108,7 @@ struct A7_shell_session: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

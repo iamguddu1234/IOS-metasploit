@@ -78,7 +78,7 @@ struct A3_payload_customization: View {
     """
     
     let n18 = """
-    8. Payload Encoding and Encryption:
+    7. Payload Encoding and Encryption:
     """
     
     let n19 = """
@@ -86,7 +86,7 @@ struct A3_payload_customization: View {
     """
     
     let n20 = """
-    9. Polymorphic Payloads:
+    8. Polymorphic Payloads:
     """
     
     let n21 = """
@@ -94,7 +94,7 @@ struct A3_payload_customization: View {
     """
     
     let n22 = """
-    10. Payload Options:
+    9. Payload Options:
     """
     
     let n23 = """
@@ -102,7 +102,7 @@ struct A3_payload_customization: View {
     """
     
     let n24 = """
-    11. Payload Delivery:
+    10. Payload Delivery:
     """
     
     let n25 = """
@@ -110,7 +110,7 @@ struct A3_payload_customization: View {
     """
     
     let n26 = """
-    12. Antivirus Evasion Techniques:
+    11. Antivirus Evasion Techniques:
     """
     
     let n27 = """
@@ -118,7 +118,7 @@ struct A3_payload_customization: View {
     """
     
     let n28 = """
-    13. Testing and Validation:
+    12. Testing and Validation:
     """
     
     let n29 = """
@@ -130,23 +130,60 @@ struct A3_payload_customization: View {
     """
     
     let n31 = """
-    Additionally, keep in mind that antivirus evasion is an ongoing cat-and-mouse game, and antivirus solutions continue to evolve to detect and block new evasion techniques. Stay up-to-date with the latest advancements in antivirus technology and regularly evaluate the effectiveness of your customized payloads against updated security software.
+Additionally, keep in mind that antivirus evasion is an ongoing cat-and-mouse game, and antivirus solutions continue to evolve to detect and block new evasion techniques. Stay up-to-date with the latest advancements in antivirus technology and regularly evaluate the effectiveness of your customized payloads against updated security software.
 """
     
     var body: some View {
         ZStack {
             // Background color or other background elements
-            Color.white.ignoresSafeArea()
-            
+            Color("bg").ignoresSafeArea()
+
             VStack(spacing: 0) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 15) {
                         
                         
-                  
                         
                         
-//                        Text1(title: aa1)
+                        
+                        
+                        Head(title: n1)
+                        
+                        Stext(title: n2)
+                        
+                        Text2(title1: n3, title2: n4)
+                        
+                        Text2(title1: n5, title2: n6)
+                        
+                        Text2(title1: n7, title2: n8)
+                        
+                        Text2(title1: n9, title2: n10)
+                        
+                        Text2(title1: n11, title2: n12)
+                        
+                        Text2(title1: n13, title2: n14)
+                        Stext(title: n15)
+
+                        Stext(title: n16)
+
+                        Stext(title: n17)
+                        
+                        Text2(title1: n18, title2: n19)
+                        
+                        Text2(title1: n20, title2: n21)
+                        
+                        Text2(title1: n22, title2: n23)
+                        
+                        Text2(title1: n24, title2: n25)
+                        
+                        Text2(title1: n26, title2: n27)
+                        
+                        Text2(title1: n28, title2: n29)
+                        
+                        Stext(title: n30)
+                        
+                        Stext(title: n31)
+
                         
                         
                         
@@ -162,7 +199,7 @@ struct A3_payload_customization: View {
                 BannerAds()
             }
         }
-
+        
     }
 }
 

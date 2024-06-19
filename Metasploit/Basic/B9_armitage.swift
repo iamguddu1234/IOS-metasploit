@@ -34,9 +34,9 @@ struct B9_armitage: View {
                  
                         
                         
-                        Text1(title: aa14)
-                        Text1(title: aa15)
-                        Text1(title: aa16)
+                        Stext(title: aa14)
+                        Stext(title: aa15)
+                        Stext(title: aa16)
                         
                         
                         
